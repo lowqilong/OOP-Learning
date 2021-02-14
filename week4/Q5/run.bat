@@ -1,0 +1,1 @@
+java -cp javax/mail/mailapi-1.5.5.jar;javax/activation/activation.jar;com/sun/mail/smtp/smtp-1.5.5.jar;out demo.Tester

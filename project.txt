@@ -1,0 +1,10 @@
+--Java command prompt application
+--JSP (Java Server Pages)
+<%
+String s = ...;
+%>
+
+JSP with servlets
+Java web framework(stripes)
+Springboot(hardest steep learning curve)
+
