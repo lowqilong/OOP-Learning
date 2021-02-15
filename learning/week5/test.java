@@ -16,5 +16,18 @@ public class test {
 
         // wont compile, employee IS NOT an employee, compilation error
         Manager m = new Employee();
+
+        // instanceof and class casting
+        Employee e = new Manager(300, 500); // this is fine
+
+        if (e instanceof Manager) {
+            Manager m = (Manager) e; // class cast
+            System.out.println(m.getSalary());
+            System.out.println(m.getBonus());
+        }
+    }
+
+    public static void isManager() {
+        
     }
 }
