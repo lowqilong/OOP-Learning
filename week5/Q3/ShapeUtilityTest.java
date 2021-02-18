@@ -8,17 +8,16 @@ public class ShapeUtilityTest {
         ArrayList<Shape> shapeList = new ArrayList<Shape>();
         shapeList.add(new Octagon(3));
         shapeList.add(new Square(3));
-        shapeList.add(new Rectangle(4,3));
+        shapeList.add(new Rectangle(4, 3));
         shapeList.add(new Octagon(4));
         shapeList.add(new Square(4));
-        shapeList.add(new Rectangle(6,4));
+        shapeList.add(new Rectangle(6, 4));
         shapeList.add(new Octagon(8));
         shapeList.add(new Square(8));
-        shapeList.add(new Rectangle(8,4));
+        shapeList.add(new Rectangle(8, 4));
         shapeList.add(new Octagon(6));
         shapeList.add(new Square(6));
-        shapeList.add(new Rectangle(5,4));
-
+        shapeList.add(new Rectangle(5, 4));
 
         System.out.println("Test getLargestOctagon:");
         System.out.println(ShapeUtility.getLargestOctagon(null));

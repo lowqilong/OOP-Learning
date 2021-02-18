@@ -11,7 +11,7 @@ public class Octagon implements Shape {
     }
 
     public double getArea() {
-        return Math.pow(side, 2) * (2 + 2 * (Math.sqrt(2)));
+        return Math.round(Math.pow(side, 2) * (2 + 2 * (Math.sqrt(2))) * 100.0) / 100.0;
     }
 
     public double getPerimeter() {
